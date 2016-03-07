@@ -1,6 +1,6 @@
 {
   "name": "onion-oled-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS bindings for the OnionOmega OLED display",
   "main": "main.js",
   "keywords": [

@@ -1,5 +1,5 @@
-var OLEDExpr = require('./src/oled-exp');
+var OLEDExp = require('./src/oled-exp');
 
 module.exports = {
-    'OLEDExpr': OLEDExpr
+    'OLEDExp': OLEDExp
 };
