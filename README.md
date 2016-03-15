@@ -10,14 +10,14 @@ npm install onion-oled-js
 ## Examples
 
 ```javascript
-var OLEDExpr = require('onion-oled-js').OLEDExpr;
+var OLEDExp = require('onion-oled-js').OLEDExp;
 
-OLEDExpr.powerOn()
-  .then(OLEDExpr.initialize)
-  .then(() => OLEDExpr.write('first thing', 0, 5))
-  .then(() => OLEDExpr.write('second thing too', 1, 1))
-  .then(() => OLEDExpr.cursor(3, 0))
-  .then(() => OLEDExpr.write('really really really really really really long sentence'));
+OLEDExp.powerOn()
+  .then(OLEDExp.initialize)
+  .then(() => OLEDExp.write('first thing', 0, 5))
+  .then(() => OLEDExp.write('second thing too', 1, 1))
+  .then(() => OLEDExp.cursor(3, 0))
+  .then(() => OLEDExp.write('really really really really really really long sentence'));
 ```
 
 ## See also
